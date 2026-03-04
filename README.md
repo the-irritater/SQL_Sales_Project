@@ -27,8 +27,8 @@ The goal was to perform data cleaning, aggregation, and KPI analysis to understa
 
 ## Tools Used
 
-- SQL (MySQL / PostgreSQL / SQL Server – mention what you used)
-- Excel / CSV (for dataset storage if applicable)
+- SQL (SQL Server)
+- Excel / CSV  
 
 ---
 
