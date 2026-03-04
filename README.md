@@ -1,72 +1,68 @@
-# 📊 Sales Performance & Business Insights using SQL Server
+# SQL Sales Analysis Project
 
-## 🔍 Project Overview
-This project analyzes sales data using **SQL Server** to extract meaningful business insights related to sales performance, customer behavior, profitability, and discount strategies. The goal is to support **data-driven decision-making** through structured SQL analysis.
+## Project Overview
 
----
-
-## 🎯 Objective
-- Identify key sales and profit trends  
-- Analyze category-wise and regional performance  
-- Understand customer contribution to total revenue  
-- Evaluate the impact of discounts on profitability  
+This project focuses on analyzing sales data using SQL to extract meaningful business insights.  
+The goal was to perform data cleaning, aggregation, and KPI analysis to understand sales performance.
 
 ---
 
-## 🗄️ Database Design
-The relational database was designed with the following tables:
-- **Customers**
-- **Products**
-- **Orders**
+## Objectives
 
-### Key Features:
-- Primary and foreign key constraints
-- Normalized table structure
-- Ensured data integrity and efficient querying
+- Analyze total sales revenue
+- Identify top-selling products
+- Find highest revenue-generating regions
+- Evaluate monthly sales trends
+- Generate business KPIs using SQL queries
 
 ---
 
-## 🛠️ Tools & Technologies
-- **SQL Server**
-- **SQL Server Management Studio (SSMS)**
+## Dataset Information
+
+- Sales transaction dataset
+- Contains order details, product information, region, revenue, and dates
+- Data stored in relational format
 
 ---
 
-## 📈 Analysis Performed
-- Sales and profit **KPI analysis**
-- **Category-wise** and **state-wise** performance analysis
-- **Customer ranking** using SQL window functions
-- **Monthly sales and profit trend** analysis
-- **Discount vs profitability** analysis
+## Tools Used
+
+- SQL (MySQL / PostgreSQL / SQL Server – mention what you used)
+- Excel / CSV (for dataset storage if applicable)
 
 ---
 
-## 💡 Key Insights
-- **Technology** category generates the highest sales and profit.
-- A small group of **top customers contributes a large share of revenue**.
-- **High discounts often lead to low or negative profit margins**.
-- Sales and profit vary significantly across **states**, highlighting regional growth opportunities.
-- Certain **high-value orders incur losses** due to excessive discounting.
+## Key SQL Concepts Applied
+
+- SELECT, WHERE, GROUP BY
+- ORDER BY
+- Aggregate Functions (SUM, COUNT, AVG)
+- JOIN operations
+- Subqueries
+- CASE statements
 
 ---
 
-## ✅ Conclusion
-The SQL-based analysis helped identify:
-- High-performing categories and regions  
-- Loss-making discount strategies  
-- Revenue concentration among customers  
+## Key Insights
 
-These insights can help businesses improve pricing strategies, optimize profitability, and focus on high-impact customers.
-
----
-
-## 📌 Skills Demonstrated
-- SQL querying & optimization  
-- Relational database design  
-- KPI and trend analysis  
-- Business insights generation  
+- Identified top-performing products based on revenue
+- Found highest revenue region
+- Analyzed monthly growth trends
+- Calculated overall sales performance metrics
 
 ---
 
-## 📂 Project Type
-**SQL Data Analysis / Business Intelligence**
+## Business Impact
+
+This analysis helps businesses:
+- Improve product strategy
+- Optimize regional marketing
+- Monitor revenue growth trends
+- Make data-driven decisions
+
+---
+
+## Conclusion
+
+Through this project, I strengthened my SQL querying skills and improved my understanding of business data analysis.  
+This project demonstrates my ability to convert raw data into actionable insights using SQL.
