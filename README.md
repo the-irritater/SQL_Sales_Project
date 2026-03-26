@@ -1,39 +1,33 @@
-# SQL Sales Analysis Project
+# Sales Performance & Business Insights using SQL Server
 
-## Project Overview
-
-This project focuses on analyzing sales data using SQL to extract meaningful business insights.  
-The goal was to perform data cleaning, aggregation, and KPI analysis to understand sales performance.
+## Problem Statement
+Businesses generate large volumes of sales data, but raw transaction records alone do not provide actionable insights. This project focuses on analyzing sales data using SQL Server to uncover revenue trends, top-performing products, regional performance, and key business KPIs.
 
 ---
 
 ## Objectives
-
-- Analyze total sales revenue
-- Identify top-selling products
-- Find highest revenue-generating regions
-- Evaluate monthly sales trends
-- Generate business KPIs using SQL queries
+- Analyze total sales revenue and overall business performance
+- Identify top-selling products and categories
+- Evaluate region-wise revenue contribution
+- Examine monthly sales trends
+- Generate key performance indicators using SQL queries
 
 ---
 
 ## Dataset Information
-
 - Sales transaction dataset
-- Contains order details, product information, region, revenue, and dates
-- Data stored in relational format
+- Includes order details, product information, region, revenue, and order dates
+- Data stored in relational format for structured querying
 
 ---
 
 ## Tools Used
-
-- SQL (SQL Server)
-- Excel / CSV  
+- SQL Server
+- Excel / CSV
 
 ---
 
-## Key SQL Concepts Applied
-
+## SQL Concepts Applied
 - SELECT, WHERE, GROUP BY
 - ORDER BY
 - Aggregate Functions (SUM, COUNT, AVG)
@@ -43,26 +37,45 @@ The goal was to perform data cleaning, aggregation, and KPI analysis to understa
 
 ---
 
-## Key Insights
+## Approach
+- Performed data exploration and cleaning
+- Wrote SQL queries to calculate KPIs and business metrics
+- Analyzed product, region, and time-based performance
+- Generated insights to support business decision-making
 
-- Identified top-performing products based on revenue
-- Found highest revenue region
-- Analyzed monthly growth trends
-- Calculated overall sales performance metrics
+---
+
+## Key Insights
+- Identified the highest revenue-generating products
+- Determined the best-performing region by sales
+- Analyzed monthly sales growth trends
+- Calculated key sales performance metrics
 
 ---
 
 ## Business Impact
-
-This analysis helps businesses:
-- Improve product strategy
-- Optimize regional marketing
-- Monitor revenue growth trends
-- Make data-driven decisions
+- Supports product strategy by identifying top performers
+- Helps optimize regional sales and marketing efforts
+- Improves revenue tracking through KPI monitoring
+- Enables data-driven decision-making using SQL analysis
 
 ---
 
-## Conclusion
+## Files in this Repository
+- `SQL_Sales_Project.sql` — SQL queries for analysis
+- `Sales Performance & Business Insights using SQL Server.pdf` — project summary/output
+- `README.md` — project documentation
 
-Through this project, I strengthened my SQL querying skills and improved my understanding of business data analysis.  
-This project demonstrates my ability to convert raw data into actionable insights using SQL.
+---
+
+## How to Run
+1. Import the sales dataset into SQL Server
+2. Open and run the queries in `SQL_Sales_Project.sql`
+3. Review the outputs and compare findings with the project PDF
+
+---
+
+## Author
+Sanman Kadam  
+MSc Statistics | Aspiring Data Analyst  
+GitHub: https://github.com/the-irritater
